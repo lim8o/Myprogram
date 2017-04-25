@@ -1,0 +1,108 @@
+/*header*/
+.container {
+    height: 65px;
+    width: 1200px;
+    padding: 0 88px;
+}
+.navbar-brand-img img {
+    width: 240px;
+    height:40px;
+}
+.navbar-default.navbar-transparent .navbar-nav > li > a.shanghu {
+    background: #e94840;
+}
+.navbar-default.navbar-transparent .navbar-nav > li > a, .navbar-default.navbar-transparent .navbar-text {
+    color: #121212;
+}
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-text {
+    color: #4e4e4e;
+    font-weight: bold;
+}
+.shanghu-right{
+    height: 30px;
+    margin-right:10px;
+}
+.shanghu-right .shanghu{
+    line-height: 5px;
+    margin-top: 10px;
+    height: 30px;
+    border-radius: 7px;
+    color: #fff !important;
+}
+
+/*carousel*/
+
+.carousel.slide {
+    margin-top: -20px;
+}
+.full_banner {
+    width: 100%;
+    position: relative;
+    height: 420px;
+    background: #FFF;
+    overflow: hidden;
+}
+.bd-ul{
+    position: relative;
+    width: 100%;
+    height: 420px;
+}
+.bd .bd-ul .bd1{
+    background: url("../img/carousel-2.jpg") center no-repeat;
+}
+/*.bd .bd-ul .bd1{
+background: url("../img/carousel-3.jpg") center no-repeat;
+}
+.bd .bd-ul .bd1{
+background: url("../img/carousel-4.jpg") center no-repeat;
+}*/
+.bd .bd-ul .bd1,.bd2,.bd3{
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    display: list-item;
+}
+.full_banner .bd li {
+    width: 100% !important;
+    float: left;
+    height: 420px;
+    overflow: hidden;
+}
+/*小球*/
+.full_banner .hd {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.full_banner .hd ul {
+    text-align: center;
+    padding-top: 5px;
+}
+.full_banner .hd ul li {
+    cursor: pointer;
+    display: inline-block;
+    zoom: 1;
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+    overflow: hidden;
+    /*line-height: 9999px;*/
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 100%;
+}
+.full_banner .hd ul .on {
+    background-position: 0 0;
+    background-color: rgba(255,255,255,1);
+    border-radius: 100%;
+}
+/*bannernav*/
+
+
+
+
