@@ -24,8 +24,7 @@ body {
     background-color: rgba(255, 255, 255, .96);
 }
 .navbar-collapse.navbar-right {
-    box-shadow: none;
-    -webkit-box-shadow: none;
+
 }
 .navbar-default .navbar-collapse{
     border-color: #e7e7e7;
@@ -76,14 +75,24 @@ body {
     color: #4e4e4e;
     font-weight: bold;
 }
+/*去除bootstrap的hover样式*/
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #e94840;
+    background: #fff;
+}
 .collapse.navbar-collapse.navbar-right a:hover {
-    color: red;
+    transition: color 0.6s linear ;
+    color: #e94840;
 }
 .shanghu-right{
     margin-right:10px;
 }
 .shanghu-right .shanghu{
+    border-radius: 8px;
     color: #fff !important;
+}
+.navbar-nav > li > a {
+    line-height: 11px;
 }
 
 #navbar-nav li a {
@@ -93,7 +102,7 @@ body {
     padding: 10px 15px;
 }
 
-/*轮播图*/
+/*banner*/
 .full_banner {
     width: 100%;
     position: relative;
