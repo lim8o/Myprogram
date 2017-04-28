@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border: none;
+  list-style: none;
+  font-family: "Microsoft YaHei","SimSun";
+  outline: none !important;
+}
+/*登录*/
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: auto;
+}
+.content {
+  margin-bottom: 20px;
+}
+.login {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+  margin-top: 13%;
+  border-radius: 5px;
+  background: #fff;
+  border: 1px #ccc solid;
+}
+.login h2 {
+  background: url(../img/houtai-logo.png) center no-repeat;
+  height: 70px;
+  line-height: 70px;
+  background-size: 290px;
+  margin-top: 0;
+}
+.login .icon-1 {
+  border-bottom: 0;
+  border-bottom-left-radius: 0;
+}
+.login .icon-2 {
+  border-top-left-radius: 0;
+  font-size: 14px;
+}
+.login input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+}
+.login .form-control {
+  position: relative;
+  height: auto;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.login input[type="password"] {
+  border-top-right-radius: 0;
+}
+.login .content {
+  padding-bottom: 20px;
+}
+/*注册*/
+.regist, .forgetPwd {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+  margin-top: 13%;
+  border-radius: 5px;
+  background: #fff;
+  border: 1px #ccc solid;
+}
+.regist h2, .forgetPwd h2 {
+  background: url(../img/houtai-logo.png) center no-repeat;
+  height: 70px;
+  line-height: 70px;
+  background-size: 290px;
+  margin-top: 0;
+}
+.control-group div {
+  margin: 10px 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.control-group input {
+  height: 50px;
+}
+.input-group {
+  position: relative;
+  display: table;
+  border-collapse: separate;
+}
+.input-group img {
+  height: 50px;
+  width: 100%;
+  border: 1px solid #ccc;
+}

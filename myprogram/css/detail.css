@@ -1,9 +1,9 @@
-/*header*/
 body {
     color: #333;
     font: 14px/1.14 "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑";
     background: #F8F8F8;
 }
+/*header*/
 #header {
     width: 100%;
     background: #fff;
@@ -94,43 +94,195 @@ body {
     padding: 10px 15px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*service-center*/
+.service-center {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+/*h2*/
+.h2 {
+    line-height: 85px;
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: bold;
+}
+.bright {
+    margin: 0 10px;
+    font-weight: normal;
+}
+.h2 > .cnav {
+    color: #fb4e55;
+    font-weight: bold;
+}
+/*center-left*/
+.centerleft {
+    width: 960px;
+    float: left;
+    margin-bottom: 50px;
+}
+.ctop {
+    height: 220px;
+    border: 1px solid #e5e5e5;
+    background: #fff;
+}
+.pic {
+    width: 160px;
+    height: 160px;
+    border: 1px solid #e5e5e5;
+    margin: 30px;
+    float: left;
+}
+.spm {
+    float: left;
+    position: relative;
+    top: 25px;
+}
+.spm span:nth-child(1) {
+    font-size: 18px;
+    color: #1d1515;
+}
+.spm span {
+    display: block;
+    line-height: 42px;
+    height: 42px;
+}
+.spm span b {
+    font-size: 20px;
+    color: #fc545e;
+    margin-left: 10px;
+}
+.spm span b em {
+    font-size: 14px;
+    font-style: normal;
+}
+.spm span b.oldpic {
+    font-size: 14px;
+    color: #898989;
+    margin-left: 40px;
+    font-weight: normal;
+    display: inline-block;
+}
+.spm span b.oldpic em {
+    text-decoration: line-through;
+}
+.spm span .youhui {
+    /*display: none;*/
+    display: inline-block;
+    border: 1px solid #fb474f;
+    color: #fb474f;
+    font-size: 12px;
+    padding: 0 6px;
+    border-radius: 6px;
+    text-align: center;
+    font-style: normal;
+    margin-left: 10px;
+    height: 24px;
+    line-height: 24px;
+}
+.spm span .yishou {
+    color: #fb474f;
+    margin-left: 10px;
+    font-style: normal;
+}
+.spf {
+    float: right;
+    margin: 20px 60px 0 0;
+}
+.spf .qr-code {
+    width: 115px;
+    height: 115px;
+}
+.spf b {
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    font-size: 16px;
+}
+.spf b:nth-child(3) {
+    color: #fb474f;
+}
+/*content*/
+.cdown {
+    clear: both;
+    background: #fff;
+    padding: 30px 20px;
+    border: 1px solid #e5e5e5;
+    margin-top: 10px;
+}
+.cdown b {
+    border-bottom: 3px solid #fb474f;
+    padding: 5px;
+    margin-top: 10px;
+    width: 66px;
+    display: block;
+}
+.cdown p {
+    line-height: 24px;
+    margin: 15px 0 5px;
+    font-size: 14px;
+}
+/*center-right*/
+.centerright {
+    position: relative;
+    margin-left: 10px;
+    width: 230px;
+    float: right;
+}
+.rightct {
+    width: 230px;
+    border: 1px solid #e5e5e5;
+    background: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+.rightct h3 {
+    font-size: 20px;
+    padding-left: 10px;
+    border-bottom: 1px solid #e5e5e5;
+    height: 60px;
+    line-height: 60px;
+    margin: 0;
+    text-align: left;
+}
+.rightct img {
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    margin: 40px 50px 10px 50px;
+}
+.rightct p {
+    text-align: left;
+    padding: 0 10px;
+    line-height: 36px;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+.rightct .rightct-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.rightct p span {
+    float: right;
+    color: #fb474f;
+}
+.erweima {
+    position: relative;
+    text-align: center;
+    width: 230px;
+    height: 290px;
+    background: url(../img/daoweiapp.jpg) no-repeat center;
+    margin-top: 10px;
+}
+.erweima img {
+    top: 50px;
+    left: 53px;
+    position: absolute;
+    width: 130px;
+    height: auto;
+}
 
 
 /*baozhang*/
